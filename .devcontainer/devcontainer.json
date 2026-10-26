@@ -1,0 +1,10 @@
+{
+  "name": "Embedded DSA Foundations",
+  "build": {"dockerfile": "Dockerfile", "context": ".."},
+  "workspaceFolder": "/workspaces/embeddedville-dsa-foundations-labs",
+  "remoteUser": "root",
+  "hostRequirements": {"cpus": 2, "memory": "4gb", "storage": "16gb"},
+  "postCreateCommand": "./lab doctor",
+  "customizations": {"vscode": {"extensions": ["ms-vscode.cpptools"]}}
+}
+

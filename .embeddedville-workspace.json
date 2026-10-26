@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "courseId": "embedded-dsa-foundations",
+  "repository": "ShuranXu/embeddedville-dsa-foundations-labs",
+  "intendedImmutableRef": "embedded-dsa-foundations-labs-v1.0.0",
+  "refStatus": "pending-release-authorization",
+  "devcontainer": ".devcontainer/devcontainer.json",
+  "starterVersion": "2026.10-foundations-labs-v1",
+  "workingDirectory": "/workspaces/embeddedville-dsa-foundations-labs",
+  "submissionContract": "embeddedville-workspace-submission-v1",
+  "activities": ["dsa-foundations-lab-ring", "dsa-foundations-lab-memory", "dsa-foundations-lab-queue", "dsa-foundations-lab-spsc", "dsa-foundations-lab-parser"],
+  "activityDirectories": {
+    "dsa-foundations-lab-ring": "dsa-f-lab-01",
+    "dsa-foundations-lab-memory": "dsa-f-lab-02",
+    "dsa-foundations-lab-queue": "dsa-f-lab-03",
+    "dsa-foundations-lab-spsc": "dsa-f-lab-04",
+    "dsa-foundations-lab-parser": "dsa-f-lab-05"
+  }
+}
+

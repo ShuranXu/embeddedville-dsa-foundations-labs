@@ -1,0 +1,9 @@
+{
+  "status": "review-ready-starter-candidate",
+  "proposedRepositoryVisibility": "public",
+  "proposedImmutableTag": "embedded-dsa-foundations-labs-v1.0.0",
+  "immutableCommit": null,
+  "sourceLockUpdated": false,
+  "note": "Remote creation, immutable tagging and platform lock promotion are intentionally pending."
+}
+

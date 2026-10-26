@@ -1,0 +1,5 @@
+build/
+evidence/*.json
+evidence/*.sha256
+*.o
+
