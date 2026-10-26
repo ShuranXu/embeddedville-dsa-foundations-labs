@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "id": "embeddedville-dsa-foundations-labs",
+    "kind": "course-source",
+    "courseIds": ["embedded-dsa-foundations"]
+  },
+  "repository": {
+    "expectedRemote": "https://github.com/ShuranXu/embeddedville-dsa-foundations-labs.git",
+    "defaultBranch": "main",
+    "immutableReleaseTagsRequired": true
+  },
+  "source": {
+    "protectedPaths": [".devcontainer", "lab", "labs", "tests"],
+    "baselineTag": "embedded-dsa-foundations-labs-v1.0.0"
+  },
+  "validation": {
+    "commands": ["./lab doctor", "./lab build", "./lab test"]
+  },
+  "deployment": { "managedBy": "github-codespaces", "workflow": null, "productionRef": null }
+}
